@@ -33,7 +33,7 @@
         $session_data = $this->session->userdata('logged_in');
 
         if (empty($session_data)) {
-            redirect('LoginAndLogout', 'refresh');
+//            redirect('LoginAndLogout', 'refresh');
         }
         ?>
         <div class="wrapper" ng-app="HASALE">
